@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body{
+    background-color: #000;
+}
+
+/*Header*/
+
+.header{
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 0 50px;
+}
+
+#header_logo{
+    display: flex;
+    color: black;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+}
+
+.header_items{
+    display: flex;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+
+.header_links{
+    display: flex;
+    gap: 32px;
+    color: #E5E7EB;
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #49678D;
+    color: white;
+}
+
+.header_links:hover{
+    color: firebrick;
+}
+
+/*Hero*/
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 64px;
+    padding: 32px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(20,20,20, 0.5) 100%
+    ),
+    url(https://media.cnn.com/api/v1/images/stellar/prod/190524114334-3-maglev-china-prototype.jpg?q=w_1606,h_900,x_0,y_0,c_fill);
+    background-size: cover;
+}
+
+.title_introduction{
+    margin: auto;
+    font-size: 48px;
+    background-image: linear-gradient(to top, #FFD700 0%,#FF474C 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.description_introduction{
+   margin: auto;
+   padding-bottom: 8px;
+   font-size: 18px;
+   background-image: linear-gradient(to top, #EE82EE 0%, #FFBF00 100%);
+   background-size: 100%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   font-weight: normal;
+} 
+
+.video_container {
+    max-width: 50%;
+    height: auto;
+  }
+
+.cards{
+    /*background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(20,20,20, 0.5) 100%
+    ),
+    url(https://www.datocms-assets.com/53444/1701077413-shanghai-maglev.jpg?auto=format&w=1200);
+    background-size: cover;*/
+    background-color: white;
+}
+
+.cards_title {
+    display: flex;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;    justify-content: center;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: underline #FF474C;
+    color: #000;
+}
+
+.cards_container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    font-size: 1.75rem;
+    color: black;
+    padding: 24px;
+}
+
+.card_images{
+    max-width: 550px;
+    height: 200px;
+}
+
+.credits{
+    font-size: 0.75rem;
+}
+.text a{
+    color: black;
+}
+/*Footer*/

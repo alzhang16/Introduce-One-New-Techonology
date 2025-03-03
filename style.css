@@ -151,7 +151,8 @@ body{
     gap: 52px;
     font-size: 1.75rem;
     color: black;
-    padding: 24px;
+    padding: 16px;
+    text-align: center;
 }
 
 .card_images{

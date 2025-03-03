@@ -154,12 +154,11 @@
     gap: 52px;
     font-size: 1.75rem;
     color: black;
-    padding: 16px;
+    padding: 32px;
     text-align: center;
 }
-
 .card_images{
-    max-width: 550px;
+    max-width: 455px;
     height: 200px;
 }
 
